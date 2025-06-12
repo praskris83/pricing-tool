@@ -31,8 +31,18 @@ function App() {
         <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
           <AppBar position="static">
             <Toolbar>
+              <Box
+                component="img"
+                src="/Pando_logo.png"
+                alt="Pando Logo"
+                sx={{
+                  height: 40,
+                  marginRight: 2,
+                  objectFit: 'contain'
+                }}
+              />
               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                Pando CPQ Configuration
+                Pricing Configuration Tool
               </Typography>
             </Toolbar>
           </AppBar>
